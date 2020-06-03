@@ -67,6 +67,6 @@ row3 = row2.iloc[:,0:4] #必要な項目のみ抜き出し
 
 #CSV形式で保存
 save_path = 'C:\\Users\\ykita\\OneDrive\\デスクトップ\\corvis_list.csv'
-row3.to_csv(save_path, encoding='utf_8_sig')
+row3.to_csv(save_path, encoding='utf_8_sig', sep=',')
 
 
